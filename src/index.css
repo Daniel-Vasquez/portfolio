@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  /* user-select: none; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.generalContainer {
+  max-width: 2000px;
+  margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
