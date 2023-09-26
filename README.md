@@ -1,4 +1,10 @@
-# Portafolio Web, Daniel Vásquez
+# Portafolio Web Daniel Vásquez
+
+**Versión Desktop:**
+![Captura de pantalla del portafolio Desktop](./public/portfolio-web.png)
+
+**Versión Mobile:**
+![Captura de pantalla del portafolio mobile](./public/portfolio-web-mobile.png)
 
 ¡Bienvenido a mi portafolio web! Este sitio web es una presentación de mis habilidades, proyectos y experiencias en el mundo del desarrollo web.
 
@@ -8,6 +14,7 @@ Soy un desarrollador web apasionado por la creación de aplicaciones web y la re
 
 - **Nombre:** Daniel Vásquez
 - **Ubicación:** Ciudad de México
+- **Sitio web:** https://portfolio-daniel-vasquez.vercel.app/
 
 ## Tecnologías y Habilidades
 
@@ -20,6 +27,11 @@ En mi viaje como desarrollador, he adquirido experiencia en diversas tecnología
 - Node.js, 
 - Express.js
 - Control de versiones con Git
+- Python
+- AWS (S3, cloudwatch)
+- Node.js
+- Express
+
 
 ## Experiencia
 
