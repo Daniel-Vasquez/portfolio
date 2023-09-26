@@ -31,9 +31,8 @@
   text-align: center;
 }
 
-.carousel-root .carousel.carousel-slider {
-  width: 60%;
-  margin: 0 auto;
+.carousel .thumbs-wrapper.axis-vertical .thumbs.animated {
+  padding: 0;
 }
 
 .projectContainer-coverPage .projectContainer-coverPage__img {
@@ -43,8 +42,6 @@
 
 .projectContainer-info {
   border-radius: 20px;
-  background-color: transparent;
-  width: 80%;
   margin: 0 auto;
 }
 
@@ -154,10 +151,6 @@
 }
 
 @media screen and (max-width: 700px) {
-  .carousel-root .carousel.carousel-slider {
-    width: 100% !important;
-  }
-
   .projectContainer-info {
     width: 100%;
   }
