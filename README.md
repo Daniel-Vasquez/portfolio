@@ -1,9 +1,11 @@
 # Portafolio Web Daniel Vásquez
 
 **Versión Desktop:**
+
 ![Captura de pantalla del portafolio Desktop](./public/portfolio-web.png)
 
 **Versión Mobile:**
+
 ![Captura de pantalla del portafolio mobile](./public/portfolio-web-mobile.png)
 
 ¡Bienvenido a mi portafolio web! Este sitio web es una presentación de mis habilidades, proyectos y experiencias en el mundo del desarrollo web.
