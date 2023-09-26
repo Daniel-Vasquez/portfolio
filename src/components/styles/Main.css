@@ -12,6 +12,7 @@
 .main-container__img {
   max-width: 160px;
   width: 100%;
+  min-height: 200px;
   height: 100%;
   transition: all 0.3s;
   border-radius: 30px;

@@ -3,7 +3,6 @@ import { ProjectContext } from '../context/ProjectContext';
 import { Suspense, lazy } from "react";
 import { useParams } from "react-router-dom";
 import { Loading } from '../components/Loading';
-import { HamburgerMenu } from "../components/HamburgerMenu";
 import MobileCard from '../components/MobileCard.jsx';
 import useScrollToTop from "../hooks/useScrollToTop.js";
 import "../components/styles/Project.css";

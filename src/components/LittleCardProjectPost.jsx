@@ -14,16 +14,29 @@ function LittleCardProjectPost({ projects }) {
             viewport={{ once: true }}
             key={id}
           >
-            <div className="cardProject-img">
-              <span className="cardProject-img-sapn">
-                <img
-                  className="cardProject-img-sapn__img"
-                  src={img} alt={title}
-                />
-              </span>
-            </div>
+            <Link
+              to={{ pathname: link }}
+              target="_black"
+              title="Visitar"
+            >
+              <div className="cardProject-img">
+                <span className="cardProject-img-sapn">
+                  <img
+                    className="cardProject-img-sapn__img"
+                    src={img} alt={title}
+                  />
+                </span>
+              </div>
+            </Link>
             <div className="cardProject-info">
-              <p className="cardProject-title">{title}</p>
+              <Link
+                className="cardProject-title"
+                to={{ pathname: link }}
+                target="_black"
+                title="Visitar"
+              >
+                {title}
+              </Link>
               <div className="cardProject-description">
                 {description.props.children[0] ?? description}
               </div>

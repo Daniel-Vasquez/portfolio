@@ -11,7 +11,14 @@ function CardProjectPost({ project }) {
   return (
     <section className="projectContainer">
       <div className="projectContainer-blogs">
-        <h3 className="projectContainer-blogs__title">{title}</h3>
+        <Link
+          className="projectContainer-blogs__title"
+          to={{ pathname: link }}
+          target="_black"
+          title="Visitar"
+        >
+          {title}
+        </Link>
 
         <div className="projectContainer-coverPage">
           <Suspense fallback={<Loading />}>
